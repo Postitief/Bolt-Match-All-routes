@@ -30,8 +30,8 @@ class MatchAllController
     {
         $this->app = $application;
 
-//        var_dump($this->getConfig());die;
-        $contentTypes = ['provincies', 'vervolg', 'plaats'];
+				//@todo: Get the contentTypes from the config.yml file.
+        $contentTypes = ['countries','places'];
 
         foreach($contentTypes as $contentType)
         {
