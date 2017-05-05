@@ -29,8 +29,8 @@ class MatchAllController
     public function matchAll(Request $request, $slug, Application $application)
     {
         $this->app = $application;
-
-				//@todo: Get the contentTypes from the config.yml file.
+        
+        //@todo: Get the contentTypes from the config.yml file.
         $contentTypes = ['countries','places'];
 
         foreach($contentTypes as $contentType)
